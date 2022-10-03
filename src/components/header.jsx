@@ -7,7 +7,7 @@ export function Header() {
     return(
         <header className={ styles.header }>
             <img src={noelLogo} alt="Logo" />
-            <strong>IGNITE FEED</strong>
+            <strong>NOEL<span>.</span>FEED</strong>
         </header>
     );
 }
