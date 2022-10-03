@@ -1,9 +1,13 @@
-import styles from'./Header.module.css'
+import styles from'./Header.module.css';
+import noelLogo from '../assets/noel-logo.svg';
+
+console.log(noelLogo);
 
 export function Header() {
     return(
         <header className={ styles.header }>
-        <strong>IGNITE FEED</strong>
+            <img src={noelLogo} alt="Logo" />
+            <strong>IGNITE FEED</strong>
         </header>
     );
 }
