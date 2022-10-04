@@ -14,6 +14,9 @@
     /*Roxo*/
     --purple-300: #A66CFF;
     --purple-400: #8758FF;
+
+    /*Vermelho*/
+    --red-500: #f75a68;
 }
 
 :focus{
