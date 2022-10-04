@@ -10,5 +10,6 @@
 }
 
 .header span{
-    color: var(--purple)
+    color: var(--purple-400);
+    font-size: 1.5rem;
 }

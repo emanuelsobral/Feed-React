@@ -1,10 +1,10 @@
 import { Header } from './components/header';
-import { Button } from './Post';
+import { Post } from './components/Post';
+import { Sidebar } from './components/Sidebar';
 
 import styles from './app.module.css'
 
 import './global.css';
-import { Sidebar } from './components/Sidebar';
 
 export function App() {
 
@@ -18,8 +18,8 @@ export function App() {
         <Sidebar />
 
         <main>     
-          <Button author="Emanuel Sobral" content="Lorem Ipsum"/>
-          <Button author="Emanuel Sobral" content="Lorem Ipsum and"/>
+          <Post author="Emanuel Sobral" content="Lorem Ipsum"/>
+          <Post author="Emanuel Sobral" content="Lorem Ipsum and"/>
         </main>
 
       </div>

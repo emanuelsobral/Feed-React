@@ -12,7 +12,13 @@
     --gray-900: #121214;
 
     /*Roxo*/
-    --purple: #8758FF;
+    --purple-300: #A66CFF;
+    --purple-400: #8758FF;
+}
+
+:focus{
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--purple-400); 
 }
 
 *{
